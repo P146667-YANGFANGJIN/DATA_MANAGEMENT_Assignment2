@@ -71,40 +71,7 @@ The project is organized into six core sections:
 ### 6 Conclusion
 
 ---
- 
-
-
-## *5. Findings Summary*
-
-- **Morning flights (07:00–08:59)** are the most punctual, while **evening flights** face significantly higher delays due to propagation.
-- **Delays tend to accumulate over the day**, reinforcing the importance of early departures in mitigating disruption.
-
-- **Late Aircraft and Carrier delays account for ~70%** of total delay minutes, indicating strong inter-flight dependencies and airline-level inefficiencies.
-- **Cancellations are most frequently caused by Carrier issues**, followed by **weather and NAS disruptions**.
-
-- **Cancellations peak in winter**, especially **February and December**, with weather being a key driver.
-- **Late-night flights (0–5 AM)** show high cancellation rates despite lower traffic volume.
-
-- **Routes such as ORD–LGA and ORD–EWR** experience the most cumulative delay minutes, largely due to **NAS and aircraft connectivity issues**.
-- **Routes like LGA–LEX and TEX–PHX** are most vulnerable to **weather-driven cancellations**, indicating regional operational risk.
-
-
----
-
-## *6. Conclusion*
-
-
-This project conducts a comprehensive analysis of U.S. airline delays and cancellations in 2007, using Hive SQL and Python to uncover temporal patterns, operational bottlenecks, and route-level vulnerabilities. The study reveals that delays accumulate over the course of the day, with morning flights being the most reliable, and cancellations peaking in winter months and early morning hours.
-
-
-Late aircraft and carrier-related issues were the largest contributors to total delay time, while weather and airline decisions were the main drivers of cancellations—especially on routes linked to smaller regional airports. Underperforming routes and flights were identified based on both average delays and total disruption volume, with delay and cancellation causes further broken down for targeted understanding.
-
-
-The results provide a data-driven foundation for improving airline reliability through better scheduling, risk-aware route planning, and enhanced operational flexibility, particularly on high-delay or weather-sensitive connections.
-
----
-
-## *7. Key Visualizations*
+## *5. Key Visualizations*
 
 | Section | Visualization |
 |---------|----------------|
@@ -125,3 +92,37 @@ The results provide a data-driven foundation for improving airline reliability t
 | 5.1 | `5.1.2_top_flights_by_avg_delay.png` |
 | 5.2 | `5.2.1_delay_cause_stack_top_routes.png` |
 | 5.2 | `5.2.2_cancel_reason_stack_top_routes.png` |
+
+ ---
+
+
+## *6. Findings Summary*
+
+- **Morning flights (07:00–08:59)** are the most punctual, while **evening flights** face significantly higher delays due to propagation.
+- **Delays tend to accumulate over the day**, reinforcing the importance of early departures in mitigating disruption.
+
+- **Late Aircraft and Carrier delays account for ~70%** of total delay minutes, indicating strong inter-flight dependencies and airline-level inefficiencies.
+- **Cancellations are most frequently caused by Carrier issues**, followed by **weather and NAS disruptions**.
+
+- **Cancellations peak in winter**, especially **February and December**, with weather being a key driver.
+- **Late-night flights (0–5 AM)** show high cancellation rates despite lower traffic volume.
+
+- **Routes such as ORD–LGA and ORD–EWR** experience the most cumulative delay minutes, largely due to **NAS and aircraft connectivity issues**.
+- **Routes like LGA–LEX and TEX–PHX** are most vulnerable to **weather-driven cancellations**, indicating regional operational risk.
+
+
+---
+
+## *7. Conclusion*
+
+
+This project conducts a comprehensive analysis of U.S. airline delays and cancellations in 2007, using Hive SQL and Python to uncover temporal patterns, operational bottlenecks, and route-level vulnerabilities. The study reveals that delays accumulate over the course of the day, with morning flights being the most reliable, and cancellations peaking in winter months and early morning hours.
+
+
+Late aircraft and carrier-related issues were the largest contributors to total delay time, while weather and airline decisions were the main drivers of cancellations—especially on routes linked to smaller regional airports. Underperforming routes and flights were identified based on both average delays and total disruption volume, with delay and cancellation causes further broken down for targeted understanding.
+
+
+The results provide a data-driven foundation for improving airline reliability through better scheduling, risk-aware route planning, and enhanced operational flexibility, particularly on high-delay or weather-sensitive connections.
+
+---
+
