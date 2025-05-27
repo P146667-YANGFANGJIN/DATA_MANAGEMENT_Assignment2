@@ -72,7 +72,7 @@ The project is organized into six core sections:
 
 ---
 <p align="center">
-  <img src="pic/flypic.png" width="600"/>
+  <img src="pic/flypic.jpg" width="600"/>
 </p>  
 
 
