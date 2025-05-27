@@ -1,7 +1,8 @@
 # DATA_MANAGEMENT_Assignment2
 # Airline On-Time Performance Analysis (2007)
 
-This project investigates flight punctuality in the U.S. commercial airline industry using 2007 operational data. The analysis evaluates temporal delay patterns, cancellation behavior, operational causes, and high-risk flight routes using structured data processing and visualization.
+This project analyzes flight delays and cancellations in the U.S. commercial airline network using operational data from 2007. It examines when flights are most likely to be on time, what types of disruptions contribute most to delays, how cancellation patterns vary across carriers and airports, and which routes consistently perform the worst. Hive SQL is used for querying large-scale flight records, while Python supports data visualization and pattern interpretation.
+
 
 ---
 ## *1. Project Objectives*
